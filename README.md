@@ -6,5 +6,7 @@ My first simple VueJS app to consume data from an API and display it on the site
 - Vuetify
 - Cookies
 
+Live DEMO: https://work.jancerny.dev/insult/
+
 ## Preview
 ![Site preview](https://i.imgur.com/0oOhg0h.png)
