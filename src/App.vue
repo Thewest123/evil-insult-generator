@@ -109,8 +109,8 @@ export default {
     getInsult: function() {
       //Zobrazeni nacitaciho skeleton-loaderu
       this.isShown = this.isLoading = true;
-	  
-	  //let url = `https://cors-anywhere.herokuapp.com/https://evilinsult.com/generate_insult.php?lang=${this.langSelected}&type=json`;
+
+      //let url = `https://cors-anywhere.herokuapp.com/https://evilinsult.com/generate_insult.php?lang=${this.langSelected}&type=json`;
       let url = `https://evilinsult.com/generate_insult.php?lang=${this.langSelected}&type=json`;
       axios
         .get(url)
